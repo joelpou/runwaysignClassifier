@@ -1,8 +1,8 @@
 import Augmentor
 
-inputDir = '/home/pepelepoe/Documents/fgvc-aircraft-2013b/data/images'
+inputDir = '/home/joel/Documents/aircraft-clf-dataset/aircraft/fgvc'
 # outputDir = u'/home/pepelepoe/Code/aircraftClassifier/data/output'
-saveFormat = 'PNG'
+saveFormat = 'png'
 
 # p = Augmentor.Pipeline(source_directory = inputDir, output_directory = outputDir, save_format=saveFormat)
 p = Augmentor.Pipeline(source_directory = inputDir, save_format=saveFormat)
